@@ -1,0 +1,11 @@
+.sort_select {
+  height: 2rem;
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  .sort_select {
+    max-width: 103%;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  background-color: #00688b;
+  padding: 25px;
+
+  .inputs {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .inputs {
+    flex-direction: column;
+  }
+}
